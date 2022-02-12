@@ -2,7 +2,6 @@ const input = document.getElementById("name");
 const button = document.getElementById("button");
 const lista = document.getElementById("list");
 const lis = document.querySelectorAll('li')
-console.log('lis :>> ', lis);
 
 button.addEventListener("click", (e) => {
     e.preventDefault();
@@ -70,8 +69,5 @@ function randomPick(obj) {
         heading.innerHTML = pickedStudent;
     }
 }
-console.log('lis.length :>> ', lis.length);
-
-
 
 loadUcenici()
